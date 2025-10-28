@@ -44,8 +44,6 @@ export default function Skills() {
       skills: [
         { name: 'Git & GitHub', icon: '🐙', color: 'from-gray-700 to-black' },
         { name: 'VS Code', icon: '💙', color: 'from-blue-500 to-blue-700' },
-        { name: 'Linux', icon: '🐧', color: 'from-yellow-600 to-orange-600' },
-        { name: 'Docker', icon: '🐳', color: 'from-blue-400 to-blue-600' },
         { name: 'Postman', icon: '📮', color: 'from-orange-500 to-red-500' },
         { name: 'AWS', icon: '☁️', color: 'from-yellow-500 to-orange-500' }
       ]
@@ -124,9 +122,9 @@ export default function Skills() {
           <h3 className="text-xl font-semibold text-center mb-8">Additional Skills & Interests</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Data Structures', 'Algorithms', 'OOPS', 'AI Basics', 'Cloud Computing',
-              'Competitive Programming', 'Problem Solving', 'System Design', 'Agile Methodology',
-              'Team Collaboration', 'Technical Writing', 'Code Review', 'Testing'
+              'Data Structures & Algorithms', 'OOPS', 'AI Basics',
+              'Competitive Programming', 'Problem Solving', 'System Design',
+              'Team Collaboration'
             ].map((tech, index) => (
               <motion.span
                 key={tech}

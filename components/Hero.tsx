@@ -16,8 +16,8 @@ export default function Hero() {
   const downloadResume = () => {
     // Create a link to download the resume
     const link = document.createElement('a');
-    link.href = '/boda sandeep sai resume aug 2025.pdf';
-    link.download = 'Boda_Sandeep_Sai_Resume.pdf';
+    link.href = '/bodasandhepsaai_resume_nov.pdf';
+    link.download = 'bodasandhepsaai_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

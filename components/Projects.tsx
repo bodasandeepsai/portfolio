@@ -7,6 +7,12 @@ import AnimatedCard from './AnimatedCard';
 export default function Projects() {
   const projects = [
     {
+      title: " LeetCode Whisper – AI Coding Assistant Chrome Extension",
+      description: "Developed an AI-powered LeetCode Helper Chrome Extension using React 18, TypeScript, and Vite, integrating OpenAI GPT-4 and Gemini 2.0 for real-time contextual coding assistance. Engineered a plugin-based architecture with 95% code reusability, intelligent code analysis for constraint extraction, and 85% accurate language-specific solutions. ",
+      tech: ["React.js", "Next.js","Typescript", "GeminiAI model", "PostgreSQL", "TailwindCSS", "Clerk Auth", "Drizzle Studio"],
+      github: "https://github.com/bodasandeepsai/leetcode-whisper",
+    },
+    {
       title: "MockPro-AI – AI Interview Platform",
       description: "Built a realistic AI-powered mock interview platform using Next.js and GeminiAI.Integrated PostgreSQL + Drizzle Studio for user responses and feedback storage.Secured platform with Clerk authentication and simulated 100+ interviews with 90% success rate. ",
       tech: ["React.js", "Next.js","Typescript", "GeminiAI model", "PostgreSQL", "TailwindCSS", "Clerk Auth", "Drizzle Studio"],
