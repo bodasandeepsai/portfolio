@@ -72,8 +72,8 @@ export default function Contact() {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 8179250053',
-      href: 'tel:+918179250053'
+      value: '+91 8179240053',
+      href: 'tel:+918179240053'
     },
     {
       icon: MapPin,
